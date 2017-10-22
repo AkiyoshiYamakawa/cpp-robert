@@ -1,4 +1,5 @@
 #include "InputStream.h"
+#include "HalfInputStream.h"
 #include "ArrayStream.h"
 #include <iostream>
 using namespace std;
@@ -7,12 +8,14 @@ Stream* CreateStream(){
 	char ch;
 
 	while(true) {
-		cout << "i: InputStream, a: ArrayStream ==> " << flush;
+		cout << "i: InputStream, h:HalfInputStream a: ArrayStream ==> " << flush;
 		cin >> ch;
 
 		switch(ch) {
 		case 'i':
 			return new InputStream();
+		case 'h':
+			return new HalfInputStream();
 		case 'a':
 			while(true) {
 				cout << "”z—ñ‚ð‚¦‚ç‚ñ‚Å‚­‚¾‚³‚¢ (1,2) > " << flush;
@@ -40,7 +43,7 @@ double Sum(Stream& stream) {
 }
 
 int main() {
-	for(int i=0; i<3; ++i) {
+	for(int i=0; i<5; ++i) {
 		Stream* stream = CreateStream();
 		double sum = Sum(*stream);
 		cout << "‡Œv: " << sum << endl;

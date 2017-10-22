@@ -1,0 +1,16 @@
+﻿2017/10/22 22:44:06 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\AkiyoshiYamakawa\Documents\Visual Studio 2012\Projects\New4\Chap07-12\Chap07-12.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ArrayStream.cpp New4.cpp
+         ArrayStream.cpp
+     1>c:\users\akiyoshiyamakawa\documents\visual studio 2012\projects\new4\chap07-12\arraystream.h(11): error C2143: 構文エラー : ';' が '~' の前にありません。
+         コードを生成中...
+         コンパイル中...
+         New4.cpp
+     1>c:\users\akiyoshiyamakawa\documents\visual studio 2012\projects\new4\chap07-12\arraystream.h(11): error C2143: 構文エラー : ';' が '~' の前にありません。
+         コードを生成中...
+     1>プロジェクト "C:\Users\AkiyoshiYamakawa\Documents\Visual Studio 2012\Projects\New4\Chap07-12\Chap07-12.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.72

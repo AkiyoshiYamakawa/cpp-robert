@@ -11,7 +11,7 @@ InputStream::InputStream(double n) :
 
 
 bool InputStream::Set() {
-cin >> m_n;
+//cin >> m_n;
 return m_n >= 0;
 }
 

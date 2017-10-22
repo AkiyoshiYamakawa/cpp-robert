@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void HalfInputstream::SetBase() {
+void HalfInputStream::SetBase() {
 	InputStream::SetBase();
 	m_n /= 2;
 }

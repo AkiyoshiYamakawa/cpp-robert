@@ -3,7 +3,7 @@
 
 #include "InputStream.h"
 
-class HalfInputstream :
+class HalfInputStream :
 	public InputStream
 {
 protected:
